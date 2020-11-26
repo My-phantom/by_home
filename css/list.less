@@ -1,0 +1,312 @@
+html,body{
+    font-size: 100px;
+    background-color: #f5f5f5;
+}
+.head{
+    width: 100%;
+    height: .4rem;
+
+    display: block;
+    margin-bottom: .1rem;
+    z-index: 5;
+    
+}
+.foot{
+    z-index: 1;
+    width: 100%;
+    display: block;
+    height: 1.3rem;
+}
+.waper{
+    width: 100%;
+
+    .search{
+        font-size: .12rem;
+
+        width: 2.88rem;
+        height: .4rem;
+        margin-bottom: .1rem;
+        border: 1px solid #cccccc;
+        background-color: #fff;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex: 3;
+        z-index: 5;
+        border-radius: 5px;
+        img{
+            display: block;
+            width: .2rem;
+            height: .2rem;
+            margin-right: .2rem;
+            padding-left: .1rem;
+        
+        }
+        .inp{
+            padding-left: .05rem;
+            font-size: .12rem;
+            flex: 1;
+            border: none;
+            outline: none;
+        }
+    }
+    .nav{
+        margin-top: .1rem;
+        font-size: .17rem;
+        height: .42rem;
+        line-height: .42rem;
+        position: relative;
+        z-index: 5;
+        &>ul{
+            display: flex;
+            background-color: #fff;
+            &>li{
+         
+                display: flex;
+                width: 25%;
+              justify-content: center;
+                align-items: flex-start;
+               color: #666666;
+               font-weight: bold;
+                .down{
+
+                    margin-top: .14rem;
+                    line-height: .2rem;
+                    border-width: .06rem;
+                    border-color: #cccccc transparent transparent  transparent;
+                    border-style: solid dashed solid dashed;
+                }
+                &:first-child{
+                    position: relative;
+
+                    .qu_hide{
+                        display: none;
+                        position: absolute;
+                        left: 0;
+                        top: .42rem;
+                        height: 2.94rem;
+                        z-index: 6;
+                        width: 100%;
+                        text-align: center;
+                        background-color: #F0F0F0;
+                        ul{
+                            li{
+                                font-size: .16rem;
+                                &:first-child{
+                                    position: relative;
+                                    .qu_list{
+                                        position: absolute;
+                                        top: 0;
+                                        left: 100%;
+                                        width: 300%;
+                                        background-color: #fff;
+                                        ul{
+                                           overflow: hidden;
+
+                                            li{
+                                                font-size: .12rem;
+                                                color: black;
+                                                font-weight: normal;
+                                                float: left;
+                                                width: 50%;
+                                            }
+                                        }
+                                    }
+                                }
+                                &:last-child{
+                                    position: relative;
+                                    .ditie_list{
+                                        position: absolute;
+                                        top: -.42rem;
+                                        left: 100%;
+                                        width: 300%;
+                                        background-color: #fff;
+                                        ul{
+                                           overflow: hidden;
+
+                                            li{
+                                                font-size: .12rem;
+                                                color: black;
+                                                font-weight: normal;
+                                                float: left;
+                                                width: 50%;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-child(2){
+                    position: relative;
+                  
+                    .price{
+                        position: absolute;
+                        left: -100%;
+                        top: .42rem;
+                        width: 400%;
+                        background-color: #fff;
+                        ul{
+                            margin: 0 .2rem;
+                            li{
+                                font-size: .12rem;
+                                font-weight: normal;
+                                color: black;
+                                border-bottom: 1px solid #cccccc;
+                                &:last-child{
+                                    border: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    position: relative;
+                  
+                    .home_l{
+                        position: absolute;
+                        left: -200%;
+                        top: .42rem;
+                        width: 400%;
+                        background-color: #fff;
+                        padding-bottom: .2rem;
+                        ul{
+                            margin: 0 .2rem;
+                            li{
+                                font-size: .12rem;
+                                font-weight: normal;
+                                color: black;
+                                border-bottom: 1px solid #cccccc;
+                                display: flex;
+                                justify-content: space-between;
+                                align-items: center;
+                                &:last-child{
+                                    border: none;
+                                }
+                         
+                            }
+                        }
+                        .qd{
+                
+                         display: block;
+                         width: 90%;
+                         margin: 0 auto;
+                         text-align: center;
+                           color: #fff;
+                           font-size: .12rem;
+                            background-color: #FF8A00;
+                        }
+                    }
+                }
+                &:nth-child(4){
+                    position: relative;
+                  
+                    .more_l{
+                        position: absolute;
+                        left: -300%;
+                        top: .42rem;
+                        width: 400%;
+                        background-color: #fff;
+                        padding-bottom: .2rem;
+                        .qu_1{
+                            .title{
+                                font-size: .14rem;
+                                margin-left: .2rem;
+                            }
+                            ul{
+                                margin: 0 .2rem;
+                                display: flex;
+                                flex-wrap: wrap;
+                                border-bottom:1px #cccccc solid ;
+                                li{
+                                    text-align: center;
+                                    height: .25rem;
+                                    line-height: .25rem;
+                                    font-size: .12rem;
+                                    font-weight: normal;
+                                    width: 21%;
+                                    border: 1px solid #CCCCCC;
+                                   margin-right: .1rem;
+                                   margin-bottom: .15rem;
+                                 
+                                   &:nth-child(4n){
+                                       margin-right: 0rem;
+                                   }
+                                }
+                            }
+                        }
+                        .cli{
+                            display: block;
+                            width: 90%;
+                            height: .25rem;
+                            line-height: .25rem;
+                            margin: 0 auto;
+                            text-align: center;
+                              color: #fff;
+                              font-size: .12rem;
+                               background-color: #FF8A00;
+                        }
+             
+                    }
+                }
+         
+            }
+        }
+    }
+    .shophome{
+        z-index: 2;
+        ul{
+            margin: 0 .2rem;
+            li{
+                font-size: .13rem;
+                padding: .15rem 0;
+                display: flex;
+                box-sizing: border-box;
+                border-bottom: 1px solid #ff8a4f;
+                &:last-child{
+                    border: none;
+                }
+                .img{
+                    img{
+                        display: block;
+                        width: .82rem;
+                        height: .82rem;
+                    }
+                }
+                .con{
+                    margin-left: .1rem;
+           
+                    .title{
+                        font-size: .15rem;
+                        color: black;
+                        font-weight: bold;
+                        margin-bottom: .15rem;
+                    }
+                    .p_2{
+                        font-size: .12rem;
+                        color: #bfbfbf;
+                        span{
+                            color: #ff8a4f;
+                            font-weight: bold;
+                        }
+                    }
+                    .p_3{
+                        font-size: .12rem;
+                        color: #bfbfbf;
+                    }
+                }
+            }
+        }
+    }
+    .mc{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0 ;
+        top: 0; 
+        background-color: rgba(0, 0, 0, .5);
+   
+    }
+}

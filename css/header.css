@@ -1,0 +1,37 @@
+html,
+body {
+  font-size: 100px;
+}
+header {
+  width: 100%;
+  height: auto;
+  background-color: #ff8a00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .logo {
+  margin-left: 0.3rem;
+}
+header .logo img {
+  display: block;
+  width: 1.01rem;
+  height: 0.4rem;
+}
+header .right {
+  display: flex;
+  margin-right: 0.2rem;
+}
+header .right .my {
+  margin-right: 0.14rem;
+}
+header .right .my img {
+  display: block;
+  width: 0.23rem;
+  height: 0.29rem;
+}
+header .right .down img {
+  display: block;
+  width: 0.23rem;
+  height: 0.29rem;
+}

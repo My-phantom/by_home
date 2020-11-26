@@ -1,0 +1,61 @@
+html,
+body {
+  font-size: 100px;
+}
+footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.3rem;
+  background-color: #2f3130;
+  display: flex;
+  flex-direction: column;
+}
+footer .nav {
+  font-size: 0.12rem;
+  height: 0.29rem;
+  line-height: 0.29rem;
+  margin: 0 0.24rem;
+  border-bottom: 1px solid #3e403f;
+}
+footer .nav a {
+  color: #727473;
+}
+footer .botom {
+  align-items: center;
+  padding-top: 0.12rem;
+  font-size: 0.12rem;
+  color: #727473;
+  display: flex;
+  flex-direction: column;
+}
+footer .botom .bto_top {
+  display: flex;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 0.05rem 0;
+  justify-content: space-around;
+}
+footer .botom .bto_top img {
+  display: block;
+  width: 0.18rem;
+  height: 0.24rem;
+  margin-right: 0.05rem;
+}
+footer .botom .bto_top .bticon_1 {
+  display: flex;
+  font-size: 0.14rem;
+}
+footer .botom .bto_top .bticon_1 p {
+  display: flex;
+  flex-direction: column;
+}
+footer .botom .bto_top .bticon_2 {
+  display: flex;
+  font-size: 0.14rem;
+}
+footer .botom .bto_top .bticon_2 p {
+  display: flex;
+  flex-direction: column;
+}
