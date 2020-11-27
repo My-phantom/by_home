@@ -77,6 +77,10 @@ $('.layer').on('touchstart',function(){
     $('.hide').hide();
     $('.layer').hide();
     hide();
+    $('.nav>ul>li').find('span:eq(1)').css({
+        marginTop: '0.17rem',
+        borderColor:' #cccccc  transparent transparent transparent'
+    })
 }) 
 $('.sure').on('click',function(){
     $('.hide').css('display','none');
