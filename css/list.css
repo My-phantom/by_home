@@ -1,6 +1,7 @@
 html,
 body {
   font-size: 100px;
+  height: 100%;
   background-color: #f5f5f5;
 }
 .head {
@@ -61,6 +62,7 @@ body {
   background-color: #fff;
 }
 .waper .nav > ul > li {
+  height: 0.415rem;
   display: flex;
   width: 25%;
   justify-content: center;
@@ -69,16 +71,24 @@ body {
   font-weight: bold;
 }
 .waper .nav > ul > li .down {
-  margin-top: 0.14rem;
-  line-height: 0.2rem;
-  border-width: 0.06rem;
+  margin-top: 0.16rem;
+  border-width: 0.05rem;
+  margin-left: 0.05rem;
   border-color: #cccccc transparent transparent transparent;
+  border-style: solid dashed solid dashed;
+}
+.waper .nav > ul > li .up {
+  margin-top: 0.08rem;
+  line-height: 0.2rem;
+  border-width: 0.05rem;
+  margin-left: 0.05rem;
+  border-color: transparent transparent #ff8a00 transparent;
   border-style: solid dashed solid dashed;
 }
 .waper .nav > ul > li:first-child {
   position: relative;
 }
-.waper .nav > ul > li:first-child .qu_hide {
+.waper .nav > ul > li:first-child .area_hide {
   display: none;
   position: absolute;
   left: 0;
@@ -89,43 +99,43 @@ body {
   text-align: center;
   background-color: #F0F0F0;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li {
+.waper .nav > ul > li:first-child .area_hide ul li {
   font-size: 0.16rem;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:first-child {
+.waper .nav > ul > li:first-child .area_hide ul li:first-child {
   position: relative;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:first-child .qu_list {
+.waper .nav > ul > li:first-child .area_hide ul li:first-child .area_list {
   position: absolute;
   top: 0;
   left: 100%;
   width: 300%;
   background-color: #fff;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:first-child .qu_list ul {
+.waper .nav > ul > li:first-child .area_hide ul li:first-child .area_list ul {
   overflow: hidden;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:first-child .qu_list ul li {
+.waper .nav > ul > li:first-child .area_hide ul li:first-child .area_list ul li {
   font-size: 0.12rem;
   color: black;
   font-weight: normal;
   float: left;
   width: 50%;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:last-child {
+.waper .nav > ul > li:first-child .area_hide ul li:last-child {
   position: relative;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:last-child .ditie_list {
+.waper .nav > ul > li:first-child .area_hide ul li:last-child .subway_list {
   position: absolute;
   top: -0.42rem;
   left: 100%;
   width: 300%;
   background-color: #fff;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:last-child .ditie_list ul {
+.waper .nav > ul > li:first-child .area_hide ul li:last-child .subway_list ul {
   overflow: hidden;
 }
-.waper .nav > ul > li:first-child .qu_hide ul li:last-child .ditie_list ul li {
+.waper .nav > ul > li:first-child .area_hide ul li:last-child .subway_list ul li {
   font-size: 0.12rem;
   color: black;
   font-weight: normal;
@@ -135,29 +145,29 @@ body {
 .waper .nav > ul > li:nth-child(2) {
   position: relative;
 }
-.waper .nav > ul > li:nth-child(2) .price {
+.waper .nav > ul > li:nth-child(2) .price_hide {
   position: absolute;
   left: -100%;
   top: 0.42rem;
   width: 400%;
   background-color: #fff;
 }
-.waper .nav > ul > li:nth-child(2) .price ul {
+.waper .nav > ul > li:nth-child(2) .price_hide ul {
   margin: 0 0.2rem;
 }
-.waper .nav > ul > li:nth-child(2) .price ul li {
+.waper .nav > ul > li:nth-child(2) .price_hide ul li {
   font-size: 0.12rem;
   font-weight: normal;
   color: black;
   border-bottom: 1px solid #cccccc;
 }
-.waper .nav > ul > li:nth-child(2) .price ul li:last-child {
+.waper .nav > ul > li:nth-child(2) .price_hide ul li:last-child {
   border: none;
 }
 .waper .nav > ul > li:nth-child(3) {
   position: relative;
 }
-.waper .nav > ul > li:nth-child(3) .home_l {
+.waper .nav > ul > li:nth-child(3) .home_list {
   position: absolute;
   left: -200%;
   top: 0.42rem;
@@ -165,10 +175,10 @@ body {
   background-color: #fff;
   padding-bottom: 0.2rem;
 }
-.waper .nav > ul > li:nth-child(3) .home_l ul {
+.waper .nav > ul > li:nth-child(3) .home_list ul {
   margin: 0 0.2rem;
 }
-.waper .nav > ul > li:nth-child(3) .home_l ul li {
+.waper .nav > ul > li:nth-child(3) .home_list ul li {
   font-size: 0.12rem;
   font-weight: normal;
   color: black;
@@ -177,10 +187,10 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.waper .nav > ul > li:nth-child(3) .home_l ul li:last-child {
+.waper .nav > ul > li:nth-child(3) .home_list ul li:last-child {
   border: none;
 }
-.waper .nav > ul > li:nth-child(3) .home_l .qd {
+.waper .nav > ul > li:nth-child(3) .home_list .qd {
   display: block;
   width: 90%;
   margin: 0 auto;
@@ -192,7 +202,7 @@ body {
 .waper .nav > ul > li:nth-child(4) {
   position: relative;
 }
-.waper .nav > ul > li:nth-child(4) .more_l {
+.waper .nav > ul > li:nth-child(4) .more_list {
   position: absolute;
   left: -300%;
   top: 0.42rem;
@@ -200,17 +210,17 @@ body {
   background-color: #fff;
   padding-bottom: 0.2rem;
 }
-.waper .nav > ul > li:nth-child(4) .more_l .qu_1 .title {
+.waper .nav > ul > li:nth-child(4) .more_list .more_conten .title {
   font-size: 0.14rem;
   margin-left: 0.2rem;
 }
-.waper .nav > ul > li:nth-child(4) .more_l .qu_1 ul {
+.waper .nav > ul > li:nth-child(4) .more_list .more_conten ul {
   margin: 0 0.2rem;
   display: flex;
   flex-wrap: wrap;
   border-bottom: 1px #cccccc solid;
 }
-.waper .nav > ul > li:nth-child(4) .more_l .qu_1 ul li {
+.waper .nav > ul > li:nth-child(4) .more_list .more_conten ul li {
   text-align: center;
   height: 0.25rem;
   line-height: 0.25rem;
@@ -221,10 +231,10 @@ body {
   margin-right: 0.1rem;
   margin-bottom: 0.15rem;
 }
-.waper .nav > ul > li:nth-child(4) .more_l .qu_1 ul li:nth-child(4n) {
+.waper .nav > ul > li:nth-child(4) .more_list .more_conten ul li:nth-child(4n) {
   margin-right: 0rem;
 }
-.waper .nav > ul > li:nth-child(4) .more_l .cli {
+.waper .nav > ul > li:nth-child(4) .more_list .sure {
   display: block;
   width: 90%;
   height: 0.25rem;
@@ -265,21 +275,21 @@ body {
   font-weight: bold;
   margin-bottom: 0.15rem;
 }
-.waper .shophome ul li .con .p_2 {
+.waper .shophome ul li .con .sign {
   font-size: 0.12rem;
   color: #bfbfbf;
 }
-.waper .shophome ul li .con .p_2 span {
+.waper .shophome ul li .con .sign span {
   color: #ff8a4f;
   font-weight: bold;
 }
-.waper .shophome ul li .con .p_3 {
+.waper .shophome ul li .con .date {
   font-size: 0.12rem;
   color: #bfbfbf;
 }
-.waper .mc {
+.waper .layer {
   width: 100%;
-  height: 100%;
+  height: 108%;
   position: absolute;
   left: 0 ;
   top: 0;

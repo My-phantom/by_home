@@ -3,14 +3,14 @@ body {
   font-size: 100px;
   position: relative;
 }
-.footer {
+.header {
   position: absolute;
   left: 0 ;
   top: 0;
   width: 100%;
   height: 0.4rem;
 }
-.bt {
+.footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -116,6 +116,9 @@ body {
   padding: 0.1rem 0;
   height: 1.24rem;
 }
+.waper .shop_list ul li:last-child {
+  border: none;
+}
 .waper .shop_list ul li a {
   display: block;
   font-size: 0.12rem;
@@ -145,81 +148,80 @@ body {
   font-weight: bold;
   margin-top: -0.08rem;
 }
-.waper .shop_list ul li a .mesg .p_1 {
+.waper .shop_list ul li a .mesg .mesg_num {
   display: flex;
   justify-content: space-between;
   margin: 0.05rem 0;
 }
-.waper .shop_list ul li a .mesg .p_1 .home {
+.waper .shop_list ul li a .mesg .mesg_num .home {
   color: black;
   font-weight: bold;
 }
-.waper .shop_list ul li a .mesg .p_1 .pri {
+.waper .shop_list ul li a .mesg .mesg_num .pri {
   color: #ff8f0b;
   font-weight: bold;
 }
-.waper .shop_list ul li a .mesg .p_2 {
+.waper .shop_list ul li a .mesg .mesg_size {
   display: flex;
   justify-content: space-between;
   margin: 0.08rem 0;
   color: #8b8b8b;
 }
-.waper .shop_list ul li a .mesg .p_3 {
+.waper .shop_list ul li a .mesg .type {
   color: #849aae;
 }
-.waper .shop_list ul li a .mesg .p_3 span {
+.waper .shop_list ul li a .mesg .type span {
   padding: 0.03rem;
   background-color: #f4f7f9;
 }
-.waper .gz {
+.waper .attention {
   z-index: 5;
 }
-.waper .gz > ul {
+.waper .attention > ul {
   display: flex;
   background-color: #fff;
   border-bottom: 1px solid #ff8a00;
 }
-.waper .gz > ul > li {
+.waper .attention > ul > li {
   width: 50%;
 }
-.waper .gz > ul > li:first-child {
-  border-bottom: 1px solid #ff8a00;
-}
-.waper .gz > ul > li a {
+.waper .attention > ul > li span {
   text-align: center;
   line-height: 0.56rem;
   font-size: 0.18rem;
   display: block;
   height: 0.56rem;
 }
-.waper .gz > ul > li .hot {
+.waper .attention > ul > li .public {
   color: #ff8a00;
+  border-bottom: 1px solid #ff8a00;
 }
-.waper .gz .hot_hid {
+.waper .attention .list {
   width: 100%;
   height: 1.36rem;
   background-color: #fff;
   padding-bottom: 0.1rem;
 }
-.waper .gz .hot_hid ul {
+.waper .attention .list ul {
   padding-top: 0.2rem;
   width: 100%;
   font-size: 0.16rem;
   overflow: hidden;
 }
-.waper .gz .hot_hid ul li {
+.waper .attention .list ul li {
   width: 50%;
   box-sizing: border-box;
   padding: 0.05rem 0.05rem;
   padding-left: 0.2rem;
   float: left;
 }
-.waper .gz .hot_hid ul li a {
+.waper .attention .list ul li a {
   display: block;
   color: #666666;
   width: 100%;
 }
 .waper .hidde {
+  z-index: 5;
   position: fixed;
   bottom: 0;
   height: 0.4rem;
@@ -227,7 +229,7 @@ body {
   display: flex;
   z-index: 10;
 }
-.waper .hidde .x {
+.waper .hidde .flase {
   font-size: 0.12rem;
   color: #fff;
 }
@@ -256,6 +258,6 @@ body {
   line-height: 0.4rem;
   background-color: #ff8a00;
 }
-.waper .b {
+.waper .space {
   height: 1rem;
 }

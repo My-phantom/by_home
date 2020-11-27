@@ -8,7 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/list.css">
-    <script src="./js/touch.js"></script>
+    <!-- <script src="./js/touch.js"></script> -->
 </head>
 
 <body>
@@ -22,13 +22,13 @@
   <div class="nav">
       <ul>
           <li >
-              <span class="qx one"> 区域</span> <span class="down"></span>
+              <span class="area"> 区域</span> <span class="down"></span>
 
-              <div class="qu_hide hid" >
+              <div class="area_hide hide" >
                 <ul>
                   <li>
                     区域
-                    <div class="qu_list qu" hidden >
+                    <div class="area_list listem" hidden >
                       <ul>
                         <li>附近</li>
                         <li>不限</li>
@@ -50,7 +50,7 @@
                   </li>
                   <li>
                     地铁
-                    <div class="ditie_list qu" hidden>
+                    <div class="subway_list listem" hidden>
                       <ul>
                         <li>附近</li>
                         <li>不限</li>
@@ -74,8 +74,8 @@
               </div>
           </li>
           <li>
-            <span class="pric one">价格</span><span class="down"></span>
-            <div class="price hid" hidden >
+            <span class="price ">价格</span><span class="down"></span>
+            <div class="price_hide hide" hidden >
               <ul>
                 <li>
                   不限
@@ -103,7 +103,7 @@
           </li>
           <li>
             <span class="home ">房型</span><span class="down"></span>
-            <div class="home_l hid" hidden>
+            <div class="home_list hide" hidden>
               <ul>
                 <li>
                     不限
@@ -124,13 +124,13 @@
                   5室 <input type="checkbox">
                 </li>
               </ul>
-              <span class="qd clic">确定</span>
+              <span class="qd sure">确定</span>
             </div>
           </li>
           <li>
             <span class="more "> 更多</span><span class="down"></span>
-            <div class="more_l hid" hidden>
-              <div class="qu_1 q1">
+            <div class="more_list hide" hidden>
+              <div class="more_conten more_area">
                 <div class="title">
                   区域
                 </div>
@@ -152,7 +152,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="qu_1 q2 ">
+              <div class="more_conten size">
                 <div class="title">
                   面积（平方）
                 </div>
@@ -180,7 +180,7 @@
                   </li>
                 </ul>
               </div>
-              <div class="qu_1 q3">
+              <div class="more_conten label">
                 <div class="title">
                   标签
                 </div>
@@ -215,7 +215,7 @@
    
                 </ul>
               </div>
-              <div class="qu_1 q4">
+              <div class="more_conten age">
                 <div class="title">
                   楼龄
                 </div>
@@ -236,7 +236,7 @@
    
                 </ul>
               </div>
-              <div class="qu_1 q5">
+              <div class="more_conten floor">
                 <div class="title">
                   楼层
                 </div>
@@ -256,7 +256,7 @@
                 
                 </ul>
               </div>
-              <span class="cli clic">确定</span>
+              <span class=" sure">确定</span>
             </div>
           </li>
       </ul>
@@ -269,9 +269,9 @@
         </div>
         <div class="con">
           <p class="title">西便门外大街2室1厅89平</p>
-          <p class="p_1">南北 高楼层</p>
-          <p class="p_2">签约价格:13244元 <span> 1105万</span></p>
-          <p class="p_3">签约日期:2015年11月10日</p>
+          <p class="subhead">南北 高楼层</p>
+          <p class="sign">签约价格:13244元 <span> 1105万</span></p>
+          <p class="date">签约日期:2015年11月10日</p>
         </div>
       </li>
       <li>
@@ -280,9 +280,9 @@
         </div>
         <div class="con">
           <p class="title">金桥国际1室1厅63平</p>
-          <p class="p_1">南北 高楼层/6层</p>
-          <p class="p_2">签约价格:13244元/平  <span> 1322万</span></p>
-          <p class="p_3">签约日期:2015年11月10日</p>
+          <p class="subhead">南北 高楼层/6层</p>
+          <p class="sign">签约价格:13244元/平  <span> 1322万</span></p>
+          <p class="date">签约日期:2015年11月10日</p>
         </div>
       </li>
       <li>
@@ -291,21 +291,22 @@
         </div>
         <div class="con">
           <p class="title">花涧溪二期 2室2厅 90平</p>
-          <p class="p_1">南北 高楼层</p>
-          <p class="p_2">签约价格:13244元 <span> 1105万</span></p>
-          <p class="p_3">签约日期:2015年11月10日</p>
+          <p class="subhead">南北 高楼层</p>
+          <p class="sign">签约价格:13244元 <span> 1105万</span></p>
+          <p class="date">签约日期:2015年11月10日</p>
         </div>
       </li>
     </ul>
   </div>
-  <div class="mc " hidden>
+  <div class="layer" hidden>
 
   </div>
+  <iframe class="foot" src="./footer.html" frameborder="0"></iframe>
 </div>
-<iframe class="foot" src="./footer.html" frameborder="0"></iframe>
 </body>
 <script src="./js/jquery-3.5.1.min.js"></script>
 <script src="./js/list.js"></script>
+
 <script>
   function setRem(){
       var win=document.documentElement.clientWidth||document.body.clientWidth;

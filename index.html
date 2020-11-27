@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <iframe class="footer" src="./header.html" frameborder="0"></iframe>
+    <iframe class="header" src="./header.html" frameborder="0"></iframe>
     <div class="waper">
         <div class="banner">
             <div class="search">
@@ -41,7 +41,7 @@
                 <li>
                    <a href="#">
                     <img src="./image/index/index_07.png" alt="">
-                    <span>组房</span>
+                    <span>租房</span>
                    </a>
 
                 </li>
@@ -59,8 +59,8 @@
         </div>
         <div class="shop_list">
             <div class="shop_title">
-                <p class="china">热门房源</p>
-                <p class="eng">Hot house</p>
+                <p >热门房源</p>
+                <p >Hot house</p>
             </div>
             <ul>
                 <li>
@@ -70,15 +70,15 @@
                         </div>
                         <div class="mesg">
                             <div class="title">文化部中间层 一层带阁楼</div>
-                            <div class="p_1">
+                            <div class="mesg_num">
                                 <span class="home">2室1厅96㎡南北</span>
                                 <span class="pri">1105万</span>
                             </div>
-                            <div class="p_2">
-                                <span class="one">红庙北里</span>
-                                <span class="big">14268元/平</span>
+                            <div class="mesg_size">
+                                <span >红庙北里</span>
+                                <span >14268元/平</span>
                             </div>
-                            <div class="p_3">
+                            <div class="type">
                                 <span>学区房</span>
                                 <span>独家</span>
                             </div>
@@ -92,15 +92,15 @@
                         </div>
                         <div class="mesg">
                             <div class="title">光大水墨  精装复式 稀缺</div>
-                            <div class="p_1">
+                            <div class="mesg_num">
                                 <span class="home">室1厅96㎡南北</span>
                                 <span class="pri">280万</span>
                             </div>
-                            <div class="p_2">
-                                <span class="one">光大水墨</span>
-                                <span class="big">14268元/平</span>
+                            <div class="mesg_size">
+                                <span >光大水墨</span>
+                                <span >14268元/平</span>
                             </div>
-                            <div class="p_3">
+                            <div class="type">
                                 <span>学区房</span>
                                 <span>独家</span>
                                 <span>满五唯一</span>
@@ -115,15 +115,15 @@
                         </div>
                         <div class="mesg">
                             <div class="title">南北通透两居  精装修</div>
-                            <div class="p_1">
+                            <div class="mesg_num">
                                 <span class="home">2室1厅96㎡南北 </span>
                                 <span class="pri"> 280万</span>
                             </div>
-                            <div class="p_2">
-                                <span class="one">北京新天地 </span>
-                                <span class="big">  14268元/平</span>
+                            <div class="mesg_size">
+                                <span >北京新天地 </span>
+                                <span >  14268元/平</span>
                             </div>
-                            <div class="p_3">
+                            <div class="type">
                                 <span>地铁房</span>
                                 <span>独家</span>
                          
@@ -133,16 +133,16 @@
                 </li>
             </ul>
         </div>
-        <div class="gz">
+        <div class="attention">
             <ul>
                 <li>
-                    <a href="#" class="hot"> 热门关注</a>
+                    <span class="hot"> 热门关注</span>
                 </li>
                 <li>
-                    <a href="#" class="friend"> 友情链接</a>
+                    <span class="friend "> 友情链接</span>
                 </li>
             </ul>
-            <div class="hot_hid">
+            <div class="hot_hid list">
                 <ul>
                     <li>
                         <a href="#">北京二手房</a>
@@ -170,9 +170,37 @@
                     </li>
                 </ul>
             </div>
+            <div class="friend_hid list" hidden>
+                <ul>
+                    <li>
+                        <a href="#">北手房</a>
+                    </li>
+                    <li>
+                        <a href="#">北京价</a>
+                    </li>
+                    <li>
+                        <a href="#">海淀日租房</a>
+                    </li>
+                    <li>
+                        <a href="#">朝阳新房</a>
+                    </li>
+                    <li>
+                        <a href="#">北京找房无忧</a>
+                    </li>
+                    <li>
+                        <a href="#">青年家园</a>
+                    </li>
+                    <li>
+                        <a href="#">免税房源</a>
+                    </li>
+                    <li>
+                        <a href="#">满五年唯一免税</a>
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="hidde">
-            <div class="x">
+            <div class="flase">
                 X
             </div>
             <div class="img">
@@ -186,10 +214,12 @@
                 免费下载
             </div>
         </div>
-    <div class="b"></div>
+    <div class="space"></div>
     </div>
-    <iframe class="bt" src="./footer.html" frameborder="0"></iframe>
+    <iframe class="footer" src="./footer.html" frameborder="0"></iframe>
 </body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/index.js"></script>
 <script>
     function setRem(){
         var win=document.documentElement.clientWidth||document.body.clientWidth;

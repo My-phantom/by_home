@@ -21,46 +21,46 @@ body {
 .waper .banner {
   margin-bottom: 0.2rem;
 }
-.waper .banner .phot .ban {
+.waper .banner .photo .banner_img {
   font-size: 0;
 }
-.waper .banner .phot .ban img {
+.waper .banner .photo .banner_img img {
   width: 100%;
   height: 1.85rem;
 }
-.waper .banner .phot ul li img {
+.waper .banner .photo ul li img {
   display: block;
   width: 100%;
 }
-.waper .banner .con {
+.waper .banner .house_conten {
   background-color: #fff;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
   padding-bottom: 0.3rem;
 }
-.waper .banner .con .title {
+.waper .banner .house_conten .title {
   font-size: 0.16rem;
   font-weight: bold;
 }
-.waper .banner .con .pri {
+.waper .banner .house_conten .price {
   font-size: 0.13rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.waper .banner .con .pri img {
+.waper .banner .house_conten .price img {
   display: block;
   height: 0.13rem;
 }
-.waper .banner .con .time {
+.waper .banner .house_conten .time {
   font-size: 0.12rem;
   color: #b0b0b0;
   margin: 0.1rem 0;
 }
-.waper .banner .con .bq {
+.waper .banner .house_conten .label {
   font-size: 0.12rem;
 }
-.waper .banner .con .bq span {
+.waper .banner .house_conten .label span {
   font-size: 0.12rem;
   margin-right: 0.1rem;
   color: #849aae;
@@ -107,55 +107,55 @@ body {
   line-height: 0.5rem;
   border-bottom: 1px solid #e5e5e5;
 }
-.waper .home_faul .con {
+.waper .home_faul .recommend {
   font-size: 0.13rem;
   padding: 0.15rem 0;
   line-height: 0.3rem;
   border-bottom: 1px solid #e5e5e5;
 }
-.waper .home_faul .fot {
+.waper .home_faul .feature {
   height: 0.5rem;
   line-height: 0.5rem;
   text-align: center;
   font-size: 0.12rem;
   color: #e5e5e5;
 }
-.waper .hm_poin {
+.waper .home_poin {
   background-color: #fff;
   font-size: 0.14rem;
   padding: 0 0.2rem;
   margin-bottom: 0.15rem;
 }
-.waper .hm_poin .hm_tl {
+.waper .home_poin .home_title {
   height: 0.5rem;
   font-size: 0.18rem;
   color: #FF9326;
   line-height: 0.5rem;
   border-bottom: 1px solid #e5e5e5;
 }
-.waper .hm_poin ul li {
+.waper .home_poin ul li {
   display: flex;
   align-items: center;
   height: 1.18rem;
   border-bottom: 1px solid #FF9326;
 }
-.waper .hm_poin ul li .img img {
+.waper .home_poin ul li .img img {
   display: block;
   width: 0.75rem;
   height: 0.75rem;
 }
-.waper .hm_poin ul li .hm_con {
+.waper .home_poin ul li .hm_con {
   margin-left: 0.1rem;
 }
-.waper .hm_poin ul li .hm_con .p1 {
+.waper .home_poin ul li .hm_con .stup {
   color: black;
   font-weight: bold;
 }
-.waper .hm_poin ul li .hm_con .p2 {
+.waper .home_poin ul li .hm_con .house_mesg {
   font-size: 0.12rem;
   margin: 0.1rem 0;
 }
-.waper .hm_poin ul li .hm_con .p3 span {
+.waper .home_poin ul li .hm_con .label span {
   font-size: 0.12rem;
   margin-right: 0.1rem;
   color: #849aae;
@@ -191,10 +191,10 @@ body {
 .waper .school ul li span:last-child {
   flex: 1;
 }
-.waper .school ul li .lf {
+.waper .school ul li .caption {
   color: #999999;
 }
-.waper .school .xq {
+.waper .school .school_detail {
   height: 0.5rem;
   line-height: 0.5rem;
   text-align: center;
@@ -235,23 +235,23 @@ body {
   box-sizing: border-box;
   border-bottom: 1px solid #e5e5e5;
 }
-.waper .recom ul li .co_top {
+.waper .recom ul li .conten_top {
   font-size: 0.13rem;
   display: flex;
   align-items: center;
 }
-.waper .recom ul li .co_top .img img {
+.waper .recom ul li .conten_top .img img {
   display: block;
   width: 0.75rem;
   height: 0.75rem;
 }
-.waper .recom ul li .co_top .mesg {
+.waper .recom ul li .conten_top .mesg {
   flex: 1;
   width: 1.87rem;
   margin-left: 0.1rem;
   margin-right: 0.1rem;
 }
-.waper .recom ul li .co_top .mesg .title {
+.waper .recom ul li .conten_top .mesg .title {
   font-size: 0.17rem;
   white-space: nowrap;
   overflow: hidden;
@@ -259,34 +259,34 @@ body {
   box-sizing: border-box;
   padding-right: 0.1rem;
 }
-.waper .recom ul li .co_top .mesg .p_1 {
+.waper .recom ul li .conten_top .mesg .subhead {
   display: flex;
   justify-content: space-between;
   margin: 0.05rem 0;
 }
-.waper .recom ul li .co_top .mesg .p_1 .home {
+.waper .recom ul li .conten_top .mesg .subhead .home {
   color: #8b8b8b;
 }
-.waper .recom ul li .co_top .mesg .p_1 .pri {
+.waper .recom ul li .conten_top .mesg .subhead .pri {
   color: #ff8f0b;
   font-weight: bold;
 }
-.waper .recom ul li .co_top .mesg .p_2 {
+.waper .recom ul li .conten_top .mesg .size {
   display: flex;
   justify-content: space-between;
   margin: 0.08rem 0;
   color: #8b8b8b;
   font-size: 0.12rem;
 }
-.waper .recom ul li .co_top .mesg .p_3 {
+.waper .recom ul li .conten_top .mesg .lable {
   color: #849aae;
 }
-.waper .recom ul li .co_top .mesg .p_3 span {
+.waper .recom ul li .conten_top .mesg .lable span {
   font-size: 0.12rem;
   padding: 0.03rem;
   background-color: #f4f7f9;
 }
-.waper .recom ul li .co_btm {
+.waper .recom ul li .conten_btm {
   padding-left: 0.1rem;
   position: relative;
   margin-top: 0.12rem;
@@ -295,7 +295,7 @@ body {
   line-height: 0.36rem;
   background-color: #f2f2f2;
 }
-.waper .recom ul li .co_btm img {
+.waper .recom ul li .conten_btm img {
   position: absolute;
   left: 0.07rem;
   top: -0.08rem;
